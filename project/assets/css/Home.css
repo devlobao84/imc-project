@@ -1,0 +1,50 @@
+:root {
+    font-family: 'Rubik', sans-serif; 
+    --text-h1: rgb(251, 98, 3);
+    --backgrouond-button: rgb(251, 98, 3);
+    
+}
+
+.body-container {
+    background-image: url(../imagens/phisical-corporal-mobile.jpg);
+}
+
+div, h1 .title-imc {    
+    font-size: 2em;
+    color: var(--text-h1);
+    text-align: center;
+    margin-top: 22vh;
+}
+
+ .title-two {
+    margin-top: 35px;
+ }
+ 
+ 
+ .text-secundary {
+    margin: auto;    
+    max-width: 310px;
+    font-size: 0.25em;
+    color: #fff;
+    text-align:  center;
+    justify-content: center;
+    display: flex;
+}
+
+ .text-paragraph {
+    margin:  55px auto;
+    max-width: 310px;
+    font-size: 0.85rem;
+    color: #fff;
+    text-align:  center;
+    justify-content: center;
+    display: flex;
+}
+
+ .acess-button {
+    background-color: var(--backgrouond-button);
+}
+
+
+
+
