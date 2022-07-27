@@ -1,27 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:wght@300;500&display=swap');
-
-* {
-    box-sizing: border-box;
-    outline: 0;    
-    font-family: 'Roboto Slab', serif;
-}
-
-:root {
-    /* All colors */
-    --color-primary-background: #E0E0E0;
-    --color-secundary-background: #fff;
-    --color-botton-cta: #FF0000;
-    --color-botton-cta-houver: #95181d;
-    --color-ball-selector-slide: #150E45;
-    --color-ball-selector-slide-others: #C4C4C4;
-    --color-navbar-selector: #4f3faa;
-    --color-navbar-noselector: #7C8DB0;
-    --color-socialmidia-header: #7C8DB0;
-    --color-socialmidia-footer: #4f3faa;
-
-    /* Default fonts */
-}
-
 body {
     margin: 0;
     padding: 0;

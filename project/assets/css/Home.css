@@ -1,12 +1,4 @@
-:root {
-    font-family: 'Rubik', sans-serif; 
-    --text-h1: rgb(251, 98, 3);
-    --backgrouond-button: rgb(251, 98, 3);
-    --background-default-black: rgb(48, 48, 48);
-    
-}
-
-.body-container {
+.body-container__mobile {
     background-image: url(../imagens/phisical-corporal-mobile.jpg);
 }
 
