@@ -2,6 +2,7 @@
     font-family: 'Rubik', sans-serif; 
     --text-h1: rgb(251, 98, 3);
     --backgrouond-button: rgb(251, 98, 3);
+    --background-default-black: rgb(48, 48, 48);
     
 }
 
@@ -13,18 +14,18 @@ div, h1 .title-imc {
     font-size: 2em;
     color: var(--text-h1);
     text-align: center;
-    margin-top: 22vh;
+    margin: 150px auto;
+    
 }
-
  .title-two {
-    margin-top: 35px;
+    margin-top: 10px;
  }
  
  
  .text-secundary {
     margin: auto;    
     max-width: 310px;
-    font-size: 0.25em;
+    font-size: 1rem;
     color: #fff;
     text-align:  center;
     justify-content: center;
@@ -42,9 +43,42 @@ div, h1 .title-imc {
 }
 
  .acess-button {
+    width: 220px;
+    height: 25px;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    display: flex;
     background-color: var(--backgrouond-button);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;    
 }
 
+a {
+    text-decoration: none;
+}
 
+.acess-button:hover {
+background-color: black;
+color: var(--backgrouond-button);
+}
 
+footer {   
+    width: 100%; 
+    height: 50px;
+    top: 842px;
+    background-color: var(--backgrouond-button);
+    position: fixed;
+}
+
+ .lorem {
+    display: flex;
+    font-size: 14px;
+    font-weight:400; 
+    margin: 17px 100px; 
+    text-align: center;  
+    color: #fff;
+}
 
