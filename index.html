@@ -6,42 +6,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./project/assets/css/Reset.css">
-    <link rel="stylesheet" href="./project/assets/css/style.css">
+    <link rel="stylesheet" href="./project/assets/css/Home.css">
+    <link rel="stylesheet" href="./project/assets/css/HomeDesk.css">
     <link rel="stylesheet" href="./project/assets/css/roots.css">
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
     <link
         href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
         rel="stylesheet">
     <title>Calcule seu IMC</title>
 </head>
 
-<body>
+<body class="body-container body-container__mobile">
+    <div class="first-div">
+        <div class="title-one">
+            <h1 class="title-imc">
+                Você sabe o que é IMC?
+            </h1>
+        </div>
+    </div>
+    <div class="title-two">
+        <h3 class="text-secundary">
+            O IMC é um cálculo simples que permite avaliar se a pessoa está dentro do peso que é considerado ideal
+            para a sua altura.
+        </h3>
+    </div>
+    <p class="text-paragraph">
+        Também conhecido como Índice de Massa Corporal, o IMC é uma fórmula utilizada por vários profissionais
+        de saúde, incluindo médicos, enfermeiros e nutricionistas, para saber, de uma forma rápida, se a pessoa
+        precisa ganhar ou perder peso.
+    </p>
+    <a href="calculator.html"><button class="acess-button">Acessar</button></a>
 
-    <section class="container">
-        <h1>Calcule seu IMC</h1>
-        <!-- <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam mollis nec nulla nec auctor. Pellentesque in
-            orci nisl.
-            Nam tincidunt quis nunc id ullamcorper. Phasellus ultrices tempus nisi vitae tempor. Cras vel sem et augue
-            tincidunt
-            bibendum. Donec aliquam lobortis urna ut hendrerit. Mauris euismod sed elit vel molestie. Sed fermentum
-            molestie est,
-            sit amet tempus velit aliquam vitae.
-        </p> -->
-        <form action="/" id="form" method="POST">
-            <label for="peso">Peso</label>
-            <input type="text" id="peso" name="peso">
 
-            <label for="altura">Altura</label>
-            <input type="text" id="altura" name="altura">
-            
-            <button type="submit">Calcular</button>
-        </form>
+    <footer class="footer-mobile">
 
-        <div id="resultado"></div>
-    </section>
+        <p class="copy">© Copyright, Todos os direitos reservados - 2022</p>
 
-    <script src="./project/assets/js/index.js"></script>
+    </footer>
 </body>
 
 </html>
