@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - "Frequently Asked Questions" section.
 - New "Guiding Principles" sub-section to "How do I make a changelog?".
 - Simplified and Traditional Chinese translations from [@tianshuo](https://github.com/tianshuo).
+
+
 - German translation from [@mpbzh](https://github.com/mpbzh) & [@Art4](https://github.com/Art4).
 - Italian translation from [@azkidenz](https://github.com/azkidenz).
 - Swedish translation from [@magol](https://github.com/magol).

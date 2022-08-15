@@ -1,50 +1,89 @@
-:root {
-    font-family: 'Rubik', sans-serif; 
-    --text-h1: rgb(251, 98, 3);
-    --backgrouond-button: rgb(251, 98, 3);
-    
-}
-
-.body-container {
+.body-container__mobile {    
+    position: fixed;
     background-image: url(../imagens/phisical-corporal-mobile.jpg);
 }
 
-div, h1 .title-imc {    
-    font-size: 2em;
-    color: var(--text-h1);
-    text-align: center;
-    margin-top: 22vh;
+.first-div {
+    margin: 177px 20px 41px;
 }
 
+div .title-one {
+    margin: auto;
+}
+
+div, h1 .title-imc {    
+    font-size: 1.8em;
+    color: var(--text-h1);
+    text-align: center;
+    margin: 135px auto;
+    
+}
  .title-two {
-    margin-top: 35px;
+    margin: auto;
  }
  
  
  .text-secundary {
     margin: auto;    
     max-width: 310px;
-    font-size: 0.25em;
+    font-size: 1rem;
     color: #fff;
     text-align:  center;
+    line-height: 1.5;
     justify-content: center;
     display: flex;
 }
 
  .text-paragraph {
-    margin:  55px auto;
+    margin:  70px auto;
     max-width: 310px;
     font-size: 0.85rem;
     color: #fff;
-    text-align:  center;
+    line-height: 1.5;
+    text-align: center;    
     justify-content: center;
     display: flex;
 }
 
- .acess-button {
+.acess-button  {
     background-color: var(--backgrouond-button);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 8px;
+    width: 350px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;    
 }
 
+a {
+    text-decoration: none;
+}
 
+.acess-button:hover {
+background-color: black;
+color: var(--backgrouond-button);
+}
 
+footer {   
+    width: 100%; 
+    height: 90px;
+    top: 720px;
+    background-color: var(--backgrouond-button);
+    position: fixed;
+}
+
+ .copy {
+    display: flex;
+    font-size: 14px;
+    font-weight:400; 
+    margin: 35px 100px; 
+    text-align: center;
+    justify-content: center; 
+    color: #fff;
+}
 
